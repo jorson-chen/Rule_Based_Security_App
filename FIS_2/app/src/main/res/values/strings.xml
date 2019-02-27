@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Device Security Analyser</string>
+    <string name="button1">Security Score</string>
+    <string name="button2">Device Details</string>
+    <string name="button3">Permissions</string>
+    <string name="score_eval">Score Eval</string>
+    <string name="score_eval_info">Score Eval Info</string>
+    <string name="permissions">Permissions</string>
+    <string name="device_details">Device Details</string>
+    <string name="welcome_message">Device Security Analyser</string>
+    <string name="storage_permission">Get Storage Permissions</string>
+    <string name="permissions_info">User Installed Applications with their respective Permissions</string>
+</resources>

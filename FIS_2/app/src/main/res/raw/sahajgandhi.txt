@@ -1,0 +1,27 @@
+WiFi_Off ^ Airplane => NWSEC
+Lock => DEVSEC
+OS_Same ^ Root_Off ^ Encryption => SWSEC
+Unknown_sources_absent ^ Permission_Low => APPSEC
+NWSEC => 1
+DEVSEC => 1
+SWSEC => 1
+APPSEC => 1
+SWSEC ^ APPSEC => 2
+DEVSEC ^ APPSEC => 2
+DEVSEC ^ SWSEC => 2
+NWSEC ^ APPSEC => 2
+NWSEC ^ SWSEC => 2
+NWSEC ^ DEVSEC => 2
+NWSEC ^ DEVSEC ^ SWSEC => 3
+NWSEC ^ DEVSEC ^ APPSEC => 3
+NWSEC ^ SWSEC ^ APPSEC => 3
+DEVSEC ^ SWSEC ^ APPSEC => 3
+NWSEC ^ DEVSEC ^ SWSEC ^ APPSEC => 4
+Permission_Low
+Unknown_sources_absent
+Encryption
+Root_Off
+OS_Same
+Lock
+Airplane
+WiFi_Off
