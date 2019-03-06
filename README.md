@@ -2,6 +2,8 @@
 
 The goal of this App to integrate an existing [Rule Based Expert System](ftp://ftp.dca.fee.unicamp.br/pub/docs/vonzuben/ea072_2s06/notas_de_aula/Lecture02.pdf) found [here](https://github.com/bennapp/forwardBackwardChaining) with Android.
 
+The app provided a quick yet effective method to adjudicate the risk associated with a device. 
+
 Additional details can be found in Documentation folder.
 
 The system built uses the internal settings of an Android device to assign a risk score of out of 10.
